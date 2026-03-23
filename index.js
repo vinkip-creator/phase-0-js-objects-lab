@@ -1,17 +1,24 @@
-attendee !== undefined && { attendee };
-attendeeId = T001;
+attendeeId = 'T001';
 attendeeName = "Alice Smith";
 event = "JavaScript Conference";
 ticketType = "VIP";
 ticketPrice = 150;
 
-function logAttendeeName() {
-  console.log(attendeeName);
+attendee = {
+  attendeeId,
+  name: attendeeName,
+  event,
+  ticketType,
+  ticketPrice
+};
+
+function logAttendeeName(attendee) {
+  console.log(attendee.name);
 }
 
 function logTicketPrice(attendee) {
   console.log(attendee.ticketPrice);
-} 
+}
 
 function updateTicketType(attendee, newType) {
   attendee.ticketType = newType;
