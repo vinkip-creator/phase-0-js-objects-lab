@@ -1,4 +1,15 @@
-//Write your code here
+attendee !== undefined && { attendee };
+attendeeId = T001;
+attendeeName = "Alice Smith";
+event = "JavaScript Conference";
+ticketType = "VIP";
+ticketPrice = 150;
+
+function logAttendeeName() {
+  console.log(attendeeName);
+}
+
+
 
 
 
